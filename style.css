@@ -8,4 +8,17 @@
 
 .btn {
     border-radius: 30px;
+    background-color: blue;
+}
+
+.callbutton {
+    background-color: white;
+    color: black;
+}
+
+.banner {
+    background: url('img/banner.png') fixed center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    color: white;
 }

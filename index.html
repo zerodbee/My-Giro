@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Магазин гироскутеров My-Giro</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <link
           rel="stylesheet"
@@ -23,28 +23,43 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-dark">
-  <div class="container-fluid">
-    <img class="navbar-brand" src="img/logo.svg" alt="Логотип My-Giro">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link text-white-50" href="tel:+79999999999">+7-(999)-999-99-99</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Отзывы</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">Контакты</a>
-        </li>
-      </ul>
-      <a href="#" class="btn btn-primary">Заказать звонок</a>
+<header>
+  <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid">
+      <img class="navbar-brand" src="img/logo.svg" alt="Логотип My-Giro">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white-50" href="tel:+79999999999">+7-(999)-999-99-99</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Отзывы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Контакты</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-primary callbutton">Заказать звонок</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <div class="banner d-flex justify-content-end flex-column">
+    <div class="p-5 text-center">
+      <div class="container py-5">
+        <p class="col-lg-8 mx-auto lead">
+          Более 500 моделей оригинальных гироскутеров, электросамокатов, сигвеев <br>
+          Магазин электротранспорта №1 в России
+        </p>
+        <a href="#" class="btn btn-primary">Смотреть всё</a>
+      </div>
     </div>
   </div>
-</nav>
+</main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

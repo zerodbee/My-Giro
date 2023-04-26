@@ -30,6 +30,9 @@
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
+    .carousel-control-prev, .carousel-control-next {
+        visibility: hidden;
+    }
 }
 
 .carousel-inner .carousel-item.active,
@@ -63,4 +66,14 @@
 
 .carousel-control-prev {
     margin-left: -15%;
+}
+
+.carousel-item-pic {
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.company-pros {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }

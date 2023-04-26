@@ -1,0 +1,11 @@
+* {
+    font-family: Scada, sans-serif;
+}
+
+.navbar {
+    background-color: blue;
+}
+
+.btn {
+    border-radius: 30px;
+}

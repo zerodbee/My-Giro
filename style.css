@@ -60,14 +60,6 @@
     transform: translateX(0);
 }
 
-.carousel-control-next {
-    margin-right: -15%;
-}
-
-.carousel-control-prev {
-    margin-left: -15%;
-}
-
 .carousel-item-pic {
     margin-bottom: 10px;
     height: 50px;
